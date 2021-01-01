@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">tourapp</string>
+    <string name="facebook_app_id">215227256707773</string>
+    <string name="fb_login_protocol_scheme">fb215227256707773</string>
+    <string name="access_token">pk.eyJ1IjoibW9oYW1lZDEwMDQiLCJhIjoiY2tpZms1a3Q2MWNqbTJ4bzV4ZWhybmR6dSJ9.GL8bP4sK03Alfc5V4KvU2A</string>
+    <string name="Start_Navigating">Start Navigating</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

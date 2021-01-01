@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adendroit">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/nomendroit"
+        android:layout_width="411dp"
+        android:layout_height="52dp"
+        android:hint="name of your place"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/locationendroit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.633"
+        app:met_baseColor="@android:color/white"
+        app:met_iconLeft="@drawable/ic_user"
+        app:met_iconPadding="0dp"
+        app:met_primaryColor="@android:color/white"
+        app:met_textColorHint="#AFAFAF"
+        tools:ignore="MissingConstraints" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/locationendroit"
+        android:layout_width="411dp"
+        android:layout_height="57dp"
+        android:background="#171616"
+        android:hint="location of your place"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/addendroitofficiel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        app:met_baseColor="@android:color/white"
+        app:met_iconLeft="@drawable/ic_user"
+        app:met_iconPadding="0dp"
+        app:met_primaryColor="@android:color/white"
+        app:met_textColorHint="#AFAFAF"
+        tools:ignore="MissingConstraints" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/laaendroit"
+        android:layout_width="407dp"
+        android:layout_height="41dp"
+        android:background="#171616"
+        android:hint="langtitude of your place"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/addendroitofficiel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391"
+        app:met_baseColor="@android:color/white"
+        app:met_iconLeft="@drawable/ic_user"
+        app:met_iconPadding="0dp"
+        app:met_primaryColor="@android:color/white"
+        app:met_textColorHint="#AFAFAF"
+        tools:ignore="MissingConstraints" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/latlanendroit"
+        android:layout_width="413dp"
+        android:layout_height="45dp"
+        android:background="#171616"
+        android:hint="latlan of your place"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/addendroitofficiel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304"
+        app:met_baseColor="@android:color/white"
+        app:met_iconLeft="@drawable/ic_user"
+        app:met_iconPadding="0dp"
+        app:met_primaryColor="@android:color/white"
+        app:met_textColorHint="#AFAFAF"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageendroit"
+        android:layout_width="257dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="196dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationendroit"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/imageurl"
+        android:layout_width="384dp"
+        android:layout_height="51dp"
+        android:hint="Image URL"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageendroit"
+        app:met_baseColor="@android:color/white"
+        app:met_iconLeft="@drawable/ic_user"
+        app:met_iconPadding="0dp"
+        app:met_primaryColor="@android:color/white"
+        app:met_textColorHint="#AFAFAF"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+
+        android:id="@+id/addendroitofficiel"
+        Style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_weight="1"
+        android:text="ADD YOURS"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <com.google.android.material.button.MaterialButton
+
+        android:id="@+id/addendroitlocation"
+        Style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:layout_weight="1"
+        android:text="ADD YOURS"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageendroit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textmsg"
+        android:layout_width="98dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="236dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toEndOf="@+id/imageendroit"
+        app:layout_constraintTop_toBottomOf="@+id/locationendroit" />
+
+    <com.google.android.material.button.MaterialButton
+
+        android:id="@+id/fabCamera"
+        Style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="181dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="164dp"
+        android:layout_weight="1"
+        android:text="fabCamera"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+
+        android:id="@+id/fabUpload"
+        Style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="180dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="164dp"
+        android:layout_weight="1"
+        android:text="fabUpload"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.939"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
